@@ -1,0 +1,41 @@
+package ensyuu4_4f;
+/*
+ * クラス名:ensyu4_3
+ * 概要    :List4_4のwhile文終了時にxの値が-1になることを確認する
+ * 作成者  :中村竜生
+ * 作成日  :2026/04/07
+ */
+import java.util.Scanner;
+public class ensyuu4_4 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		//キーボードからの入力を読み込む
+		Scanner standardInput=new Scanner(System.in);
+		
+		//整数Aの入力を促す
+		System.out.println("カウントダウンします。");
+		
+		//入力された数字
+		int x ;
+		
+		//正の数字が入力されるまで繰り返す
+		do {
+			//整数Aの入力を促す
+			System.out.println("正の整数値：");
+			//入力された文字を読み込む
+			x = standardInput.nextInt();
+		} 
+		//正の整数が入浴されたらループを抜ける
+		while (x<=0);
+		
+		//0までカウントダウンする
+		while (x>=0) {
+			//ｘ－1をする
+			x --;
+			//最後に出力して－1を表示させる
+			System.out.println(x);
+		}
+	}
+
+}
