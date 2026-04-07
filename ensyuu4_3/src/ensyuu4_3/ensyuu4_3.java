@@ -6,7 +6,8 @@ package ensyuu4_3;
  * 作成者  :中村竜生
  * 作成日  :2026/04/06
  */
-import java.util.Scanner; class ensyuu4_3 {
+import java.util.Scanner;
+class ensyuu4_3 {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
