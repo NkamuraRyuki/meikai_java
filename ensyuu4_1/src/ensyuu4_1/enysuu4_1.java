@@ -12,6 +12,7 @@ public class enysuu4_1 {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
+//キーボードからの入力を読み込む
 Scanner standerdInput=new Scanner(System.in);
 //繰り返し入力するかどうか
 int retry;
