@@ -12,7 +12,7 @@ public class Qestion3_5 {
 		if (a<=0)
 			System.out.println("正でない値が入力されました。");
 		else if (a%5==0)
-			System.out.println("その値はで割り切れます。");
+			System.out.println("その値は5で割り切れます。");
 		else 
 			System.out.println("その値は5で割り切れません。");
 		

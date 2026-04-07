@@ -6,12 +6,20 @@ public class Qestion3_9 {
 		// TODO 自動生成されたメソッド・スタブ
 Scanner stdIn=new Scanner(System.in);
 		
-		System.out.println("実数a:");	double a=stdIn.nextInt();
-		System.out.println("実数b:");	double b=stdIn.nextInt();
+		System.out.println("実数a:");
+		double a=stdIn.nextInt();
+		System.out.println("実数b:");
+		double b=stdIn.nextInt();
 		
-		double min=a>b?a:b;
+		double bignumber=a>b?a:b;
 		
-		System.out.println("大きいほうの値は"+min+"です。");
+		if (a!=b) {
+			System.out.println("大きいほうの値は"+bignumber+"です。");
+		}
+		else {
+			System.out.println("同じ数字です。");}
+			
+			
 		
 	}
 	}

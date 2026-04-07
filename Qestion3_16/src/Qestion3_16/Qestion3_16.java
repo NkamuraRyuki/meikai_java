@@ -12,56 +12,51 @@ public class Qestion3_16 {
 		System.out.println("変数c:");	int c=stdIn.nextInt();
 		
 		if (a>b&&a>c) 
+			
 			if (c>b) {
 				int t=a;
 				a=b;
 				b=c;
 				c=t;
 				System.out.println("a<=b<=cとなるようにソートしました。");
-				System.out.println("変数aは"+a+"です。");
-				System.out.println("変数bは"+b+"です。");
-				System.out.println("変数cは"+c+"です。");}
+				System.out.println("変数aは"+a+"です。\n変数bは"+b+"です。\n変数cは"+c+"です。");}
+		
 			else {
 				int t=a;
 				a=c;
 				c=t;
 				System.out.println("a<=b<=cとなるようにソートしました。");
-				System.out.println("変数aは"+a+"です。");
-				System.out.println("変数bは"+b+"です。");
-				System.out.println("変数cは"+c+"です。");}
-			
+				System.out.println("変数aは"+a+"です。\n変数bは"+b+"です。\n変数cは"+c+"です。");}
+				
 		else if (b>a&&b>c) 
+			
 			if (a>c) {
 				int t=b;
 				b=a;
 				a=c;
 				c=t;
 				System.out.println("a<=b<=cとなるようにソートしました。");
-				System.out.println("変数aは"+a+"です。");
-				System.out.println("変数bは"+b+"です。");
-				System.out.println("変数cは"+c+"です。");}
+				System.out.println("変数aは"+a+"です。\n変数bは"+b+"です。\n変数cは"+c+"です。");}
+				
 			else {
 				int t=b;
 				b=c;
 				c=t;
 				System.out.println("a<=b<=cとなるようにソートしました。");
-				System.out.println("変数aは"+a+"です。");
-				System.out.println("変数bは"+b+"です。");
-				System.out.println("変数cは"+c+"です。");}
+				System.out.println("変数aは"+a+"です。\n変数bは"+b+"です。\n変数cは"+c+"です。");}
+		
 		else if (c>a&&c>b)
+			
 			if (a>b) {
 				int t=a;
 				a=b;
 				b=t;
 				System.out.println("a<=b<=cとなるようにソートしました。");
-				System.out.println("変数aは"+a+"です。");
-				System.out.println("変数bは"+b+"です。");
-				System.out.println("変数cは"+c+"です。");}
+				System.out.println("変数aは"+a+"です。\n変数bは"+b+"です。\n変数cは"+c+"です。");}
+		
 			else {
 				System.out.println("a<=b<=cとなるようにソートしました。");
-				System.out.println("変数aは"+a+"です。");
-				System.out.println("変数bは"+b+"です。");
-				System.out.println("変数cは"+c+"です。");}
+				System.out.println("変数aは"+a+"です。\n変数bは"+b+"です。\n変数cは"+c+"です。");}
 		
 			}
 		}

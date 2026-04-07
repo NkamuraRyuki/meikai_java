@@ -9,11 +9,11 @@ public class uestion3_1 {
 			int n=stdIn.nextInt();
 			
 			if(n>0)
-				System.out.println("その絶対値は正です。");
+				System.out.println("その絶対値は"+n+"です。");
 			else
-				System.out.println("その絶対値は負です。");
+				System.out.println("その絶対値は"+(-n)+"です。");
 			
-		
+			 
 	
 	
 	}
