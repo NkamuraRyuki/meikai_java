@@ -13,12 +13,14 @@ public class ensyuu4_2 {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-Random random=new Random();
+//乱数を生成する
+Random standardrandom=new Random();
+//キーボードからの入力を読み込む
 Scanner standardInput=new Scanner(System.in);
 
 
 //10~99の数字をランダムに生成
-int randomnumber=random.nextInt(90)+10;
+int randomnumber=standardrandom.nextInt(90)+10;
 //ゲーム開始を知らせる
 System.out.println("数当てゲーム開始！");
 //ルールの説明
