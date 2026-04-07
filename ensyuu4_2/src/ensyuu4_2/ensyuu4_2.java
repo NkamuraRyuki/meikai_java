@@ -26,7 +26,7 @@ System.out.println("数当てゲーム開始！");
 //ルールの説明
 System.out.println("10~99の数を当ててください。");
 //プレイヤーが入力した数字
-int guessNumber;
+int guessNumber=0;
 
 //正解するまで行う
 do {
@@ -45,8 +45,8 @@ do {
 		//より小さい値だと出力
 		System.out.println("もっと小さな数だよ。");
 	}
-}//生成した値と入力した値が一致するまでループ
-while(guessNumber!=randomNumber);
+//生成した値と入力した値が一致するまでループ
+}while(guessNumber!=randomNumber);
 
 //2つの値が一致したことを出力
 System.out.println("正解です。");
