@@ -15,7 +15,7 @@ public class enysuu4_1 {
 //キーボードからの入力を読み込む
 Scanner standerdInput=new Scanner(System.in);
 //繰り返し入力するかどうか
-int retry;
+int onemore;
 
 //繰り返し入力・表示できるようにする
 do{
@@ -54,11 +54,11 @@ else {
 System.out.print("もう一度行いますか？\n1...Yes/2...No:");
 
 //変数に読み込んだ値を代入
-retry=standerdInput.nextInt();
+onemore=standerdInput.nextInt();
 }
 
 //もう一度入力。表示させる
-while (retry==1);
+while (onemore==1);
 	
 }
 }
