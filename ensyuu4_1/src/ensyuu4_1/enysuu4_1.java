@@ -1,5 +1,8 @@
 package ensyuu4_1;
 
+//キーボードから入力した値を読み込むようにする
+import java.util.Scanner;
+
 /*
  * クラス名:ensyu4_1
  * 概要    :do文を用いてList3_5のプログラムを作成
@@ -7,7 +10,7 @@ package ensyuu4_1;
  * 作成日  :2026/04/06
  */
 
-import java.util.Scanner;
+
 
 public class enysuu4_1 {
 	
