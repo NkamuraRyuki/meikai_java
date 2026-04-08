@@ -8,8 +8,17 @@ package ensyuu4_4f;
 import java.util.Scanner;
 public class ensyuu4_4 {
 
+	/*
+     * 関数名           :main
+     * メソッドの説明   :main処理をするための関数
+     * パラメータの説明 :なし
+     * 返り値           :なし
+     * 作成者  			:中村竜生
+     * 作成日  			:2026.04.08.
+     */
+	
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
+		
 		//キーボードからの入力を読み込む
 		Scanner standardInput=new Scanner(System.in);
 		

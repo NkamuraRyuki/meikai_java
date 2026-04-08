@@ -6,6 +6,7 @@ package ensyuu4_1;
  * 作成者  :中村竜生
  * 作成日  :2026/04/06
  */
+
 import java.util.Scanner;
 
 public class enysuu4_1 {
@@ -24,7 +25,7 @@ public class enysuu4_1 {
 		//キーボードからの入力を読み込む
 Scanner standerdInput=new Scanner(System.in);
 //繰り返し入力するかどうか
-int oneMore;
+int oneMore=0;
 
 //繰り返し入力・表示できるようにする
 do{
@@ -33,20 +34,19 @@ do{
 System.out.println("整数値：");
 
 //変数に整数値を読み込ませる
-int judgementsigh=standerdInput.nextInt();
+int judgementSigh=standerdInput.nextInt();
 
 
 //読み込んだ整数値によって画面に出力する内容を変えさせる
 
 //０より大きい場合
-if (judgementsigh>0) 
-{
+if (judgementSigh>0) {
 	//読み込んだ値が０より大きければ出力する
 	System.out.println("その値は正です。");
 }
 
 //０より小さい場合
-else if (judgementsigh<0){
+else if (judgementSigh<0){
 	
 	//読み込んだ値が０より小さければ出力する
 	System.out.println("その値は負です。");
@@ -64,10 +64,10 @@ System.out.print("もう一度行いますか？\n1...Yes/2...No:");
 
 //変数に読み込んだ値を代入
 oneMore=standerdInput.nextInt();
-}
 
 //もう一度入力。表示させる
-while (oneMore==1);
+}while (oneMore==1);
+
 	
 }
 }

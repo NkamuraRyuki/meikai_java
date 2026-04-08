@@ -10,9 +10,16 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class ensyuu4_2 {
-
+	/*
+     * 関数名           :main
+     * メソッドの説明   :main処理をするための関数
+     * パラメータの説明 :なし
+     * 返り値           :なし
+     * 作成者  			:中村竜生
+     * 作成日  			:2026.04.08.
+     */
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
+		
 //乱数を生成する
 Random standardRandom=new Random();
 //キーボードからの入力を読み込む
