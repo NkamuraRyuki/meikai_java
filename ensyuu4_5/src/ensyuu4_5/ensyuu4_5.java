@@ -1,6 +1,6 @@
 package ensyuu4_5;
 
-////キーボードから入力した値を読み込むようにする
+//キーボードから入力した値を読み込むようにする
 import java.util.Scanner;
 
 /*

@@ -35,10 +35,10 @@ public class ensyuu4_4 {
 			//入力された文字を読み込む
 			InputNumber = standardInput.nextInt();
 		} 
-		//正の整数が入浴されたらループを抜ける
+		//正の整数が入力されたらループを抜ける
 		while (InputNumber<=0);
 		
-		//0までカウントダウンする
+		//-1まで繰り返す
 		while (InputNumber>=-1) {
 			//出力する
 			System.out.println(InputNumber);
