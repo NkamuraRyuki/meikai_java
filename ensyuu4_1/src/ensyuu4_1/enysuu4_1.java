@@ -9,13 +9,22 @@ package ensyuu4_1;
 import java.util.Scanner;
 
 public class enysuu4_1 {
+	
+/*
+ * 関数名           :main
+ * メソッドの説明   :main
+ * パラメータの説明 :なし
+ * 返り値           :なし
+ * 作成者  :中村竜生
+ * 作成日  :2026.04.08.
+ */
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-//キーボードからの入力を読み込む
+		
+		//キーボードからの入力を読み込む
 Scanner standerdInput=new Scanner(System.in);
 //繰り返し入力するかどうか
-int onemore;
+int oneMore;
 
 //繰り返し入力・表示できるようにする
 do{
@@ -54,11 +63,11 @@ else {
 System.out.print("もう一度行いますか？\n1...Yes/2...No:");
 
 //変数に読み込んだ値を代入
-onemore=standerdInput.nextInt();
+oneMore=standerdInput.nextInt();
 }
 
 //もう一度入力。表示させる
-while (onemore==1);
+while (oneMore==1);
 	
 }
 }
