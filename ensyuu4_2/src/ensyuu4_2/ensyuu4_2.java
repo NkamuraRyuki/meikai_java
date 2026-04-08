@@ -1,4 +1,8 @@
 package ensyuu4_2;
+//乱数を生成できるようにする
+import java.util.Random;
+//キーボードから入力した値を読み込むようにする
+import java.util.Scanner;
 
 /*
  * クラス名:ensyu4_2
@@ -6,8 +10,6 @@ package ensyuu4_2;
  * 作成者  :中村竜生
  * 作成日  :2026/04/06
  */
-import java.util.Random;
-import java.util.Scanner;
 
 public class ensyuu4_2 {
 	/*
@@ -42,7 +44,13 @@ do {
 	//入力した数字を変数に代入
 	guessNumber=standardInput.nextInt();
 	
-	//乱数生成した数値と読み込んだ数値が等しいかどうか
+	
+	//10~99以外の数字を除外
+	if  (guessNumber <= 9 || guessNumber >= 100) {
+		//真であった場合出力
+		System.out.print("２桁以外の数字が入力されています。");
+	}
+	
 	//読み込んだ値が生成した値より小さい場合
 	if(guessNumber<randomNumber) {
 		//より大きい値だと出力
