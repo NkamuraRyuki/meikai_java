@@ -40,6 +40,7 @@ public class ensyuu4_5 {
 		while (InputNumber >= 0){
 			System.out.println(--InputNumber);
 		}
+		
 	}
 
 }
