@@ -46,7 +46,7 @@ public class ensyuu4_9 {
 			//正の整数値が入力されるまで繰り返す
 		}while (inputNumber <= 0);
 		
-		//積を求める
+		//1から１ずつ掛けてnまでの積を求める
 		while (countUp <= inputNumber) {
 			
 			//積を格納
