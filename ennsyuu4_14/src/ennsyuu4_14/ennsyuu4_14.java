@@ -24,7 +24,7 @@ public class ennsyuu4_14 {
 		Scanner standardInput = new Scanner(System.in);
 
 		//実施される内容を表示する
-		System.out.println("1から入力した数までの和を求めます。");
+		System.out.println("1から入力した数までの和を求めます。nの値：");
 
 		//入力された数字を格納する
 		int inputNumber = standardInput.nextInt();
