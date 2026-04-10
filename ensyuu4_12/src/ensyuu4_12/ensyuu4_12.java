@@ -24,7 +24,7 @@ public class ensyuu4_12 {
 		Scanner standardInput = new Scanner(System.in);
 
 		//実施される内容を表示する
-		System.out.println("カウントアップします。");
+		System.out.println("カウントアップします。\n正の整数値：");
 
 		//入力された数字を格納する
 		int inputNumber = standardInput.nextInt();
@@ -32,7 +32,7 @@ public class ensyuu4_12 {
 		//正の整数値以外を対策
 		for(; inputNumber <= 0 ;inputNumber = standardInput.nextInt()) {
 			//正の整数値を入力させる
-			System.out.println("正の整数値を入力してください。");
+			System.out.println("正の整数値：");
 		}
 
 		//0から入力された数字まで1ずつ増やす
