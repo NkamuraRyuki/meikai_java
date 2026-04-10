@@ -3,7 +3,7 @@ package ensyuu4_19;
 import java.util.Scanner;
 /*
  * クラス名:ensyuu4_19
- * 概要    :
+ * 概要    :LIst4_1で、1~12以外が入力されたら再入力させる
  * 作成者  :中村竜生
  * 作成日  :2026/04/10
  */
