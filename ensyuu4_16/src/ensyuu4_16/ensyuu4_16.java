@@ -22,25 +22,26 @@ public class ensyuu4_16 {
 
 		//実施される内容の表示と、入力を促す
 		System.out.println("*を表示します。何個*を表示しますか：");
-		
+		//入力された値を格納する
 		int inputNumber = standardInput.nextInt();
-		
-		//正の整数で入力させる
+
+		//正の整数以外を除外
 		for ( ; inputNumber <= 0 ; inputNumber = standardInput.nextInt()) {
-			//
+			//正の整数で入力させる
 			System.out.println("正の整数で入力してください。");
 		}
-		
-		
-		//
+
+
+		//入力された値までiをカウントアップする
 		for (int i = 1 ; i <= inputNumber; i ++) {
-			
+			//iが5で割り切れる値の場合
 			if ((i % 5 == 0)) {
-				//*を出力する
+				//*を改行して出力する
 				System.out.println("*");
-			}
-			else {
-				//*を出力する
+				
+				//iが5で割り切れない場合
+			}else {
+				//*を改行せずに出力する
 				System.out.print("*");
 			}
 		}
