@@ -25,29 +25,29 @@ class ensyuu4_3 {
 		System.out.println("整数A：");
 
 		//読み込んだ整数で初期化
-		int firstnumber = standardInput.nextInt();
+		int firstNumber = standardInput.nextInt();
 
 		//整数Bの入力を促す
 		System.out.println("整数B：");
 
 		//読み込んだ整数で初期化
-		int secondnumber = standardInput.nextInt();
+		int secondNumber = standardInput.nextInt();
 
 		//小さい方の数字を判定
-		int startmin = (firstnumber < secondnumber) ? firstnumber : secondnumber;
+		int startMin = (firstNumber < secondNumber) ? firstNumber : secondNumber;
 
 		//大きい方の数字を判定
-		int endmax = (firstnumber > secondnumber) ? firstnumber : secondnumber;
+		int endMax = (firstNumber > secondNumber) ? firstNumber : secondNumber;
 
 		//小さい方の数字が大きい方の数字と等しくなるまで＋1を繰り返す
 		do {
 			//最小値を出力する
-			System.out.println(startmin);
+			System.out.println(startMin);
 
 			//最小値に＋1する
-			startmin=startmin+1;
+			startMin=startMin+1;
 
 			//大きいほうの数字と等しくなるまで続ける
-		}while(startmin<=endmax);
+		}while(startMin<=endMax);
 	}
 }
